@@ -1,0 +1,6 @@
+# average marks of student:
+
+math,sci,soc,eng,hin=list(map(int,input("enter marks of math, science, social studies, english, hindi").split())) 
+avg= (math+sci+soc+eng+hin)/5 
+
+print("total marks: {} ".format(avg))
