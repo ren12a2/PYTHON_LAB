@@ -1,0 +1,5 @@
+a,b,c,d=list(map(int,input("enter 4 values: ").split()))
+# alternative:
+# a,b,c,d=[int(a) for a in input("enter 4 values: ").split()]
+
+print(a+b+c+d)
