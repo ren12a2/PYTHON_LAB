@@ -1,0 +1,12 @@
+p=float(input("Enter your percentage: "))
+
+if p>=75 and p<=100:
+    print("Distinction")
+elif p>=60 and p<75:
+    print("First class")
+elif p>=50 and p<60:
+    print("Second class")
+elif p>=0 and p<50:
+    print("FAIL")
+else:
+    print("Invalid input")
